@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <parameter name="browser" value="chrome"/>
+  <test name="Test-Runner-Chrome(failed)" parallel="tests">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.test.practice.actitime.tests.CreateCust">
+        <methods>
+          <include name="configBM"/>
+          <include name="CreateCustomer"/>
+          <include name="configBC"/>
+        </methods>
+      </class> <!-- com.test.practice.actitime.tests.CreateCust -->
+    </classes>
+  </test> <!-- Test-Runner-Chrome(failed) -->
+</suite> <!-- Failed suite [Suite] -->

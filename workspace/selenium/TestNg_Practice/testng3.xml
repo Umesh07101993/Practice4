@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests" thread-count="2">
+  <test name="Test-Runner-Firefox">
+  	<parameter name='browser' value='firefox'/>
+    <classes>
+      <class name="com.test.practice.actitime.tests.createpro"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Test-Runner-Chrome">
+    	<parameter name='browser' value='chrome'/>
+    <classes>
+      <class name="com.test.practice.actitime.tests.CreateCust"/>
+    </classes>
+  </test>
+</suite> <!-- Suite -->

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="14254" started-at="2018-06-02T17:56:24Z" finished-at="2018-06-02T17:56:38Z">
+    <groups>
+    </groups>
+    <test name="Test-Runner-Chrome" duration-ms="14254" started-at="2018-06-02T17:56:24Z" finished-at="2018-06-02T17:56:38Z">
+      <class name="com.test.practice.actitime.tests.CreateCust">
+        <test-method status="PASS" signature="configBC(java.lang.String)[pri:0, instance:com.test.practice.actitime.tests.CreateCust@ae45eb6]" name="configBC" is-config="true" duration-ms="2773" started-at="2018-06-02T23:26:24Z" finished-at="2018-06-02T23:26:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method status="PASS" signature="configBM()[pri:0, instance:com.test.practice.actitime.tests.CreateCust@ae45eb6]" name="configBM" is-config="true" duration-ms="5049" started-at="2018-06-02T23:26:27Z" finished-at="2018-06-02T23:26:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method status="PASS" signature="CreateCustomer()[pri:0, instance:com.test.practice.actitime.tests.CreateCust@ae45eb6]" name="CreateCustomer" duration-ms="3472" started-at="2018-06-02T23:26:32Z" finished-at="2018-06-02T23:26:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateCustomer -->
+        <test-method status="PASS" signature="configAM()[pri:0, instance:com.test.practice.actitime.tests.CreateCust@ae45eb6]" name="configAM" is-config="true" duration-ms="598" started-at="2018-06-02T23:26:35Z" finished-at="2018-06-02T23:26:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method status="PASS" signature="configAC()[pri:0, instance:com.test.practice.actitime.tests.CreateCust@ae45eb6]" name="configAC" is-config="true" duration-ms="2340" started-at="2018-06-02T23:26:36Z" finished-at="2018-06-02T23:26:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+      </class> <!-- com.test.practice.actitime.tests.CreateCust -->
+    </test> <!-- Test-Runner-Chrome -->
+  </suite> <!-- Suite -->
+</testng-results>
